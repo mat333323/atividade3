@@ -1,0 +1,444 @@
+
+
+body{ 
+    margin: 0;
+}
+
+
+
+header{
+width: 15%;
+height: 100vh;
+background-color: black;
+color: #727c77;
+padding: 30px;
+position: sticky;
+top: 0;
+}
+ a{
+
+    align-items: center;
+ }
+ div{
+  align-items: center;
+
+
+ }
+ section{
+    width: 100%;
+   
+
+    background-image: url(https://preview.colorlib.com/theme/elit/images/img_9.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-color: rgba(0, 0, 0, 0.5);
+background-blend-mode: multiply;
+}
+main{
+    display: flex;
+}
+.tira{
+    color: #727c77;
+    text-decoration: none;
+}
+.ver{
+    color: #df0e62;
+    text-decoration: none;
+}
+.we{
+   
+    color: white;
+    font-size: 36px;
+    height: 99vh;
+    display: flex;
+   justify-content: center;
+    text-align: center;
+    font-family: "Oswald", arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+   
+}
+svg{
+    
+    height: 2vh ;
+  fill: #727c77;
+  text-decoration: none;
+}
+.logo{
+    color: #727c77;
+    padding: 4px;
+    text-decoration: none;
+}
+.r{
+     color: #727c77;
+   
+    
+
+}
+
+.sas{ 
+    display: flex;
+    flex-direction: column;
+    font-size: 23px;
+
+
+
+}
+.fanglongmon{
+
+  font-size: 16px;
+
+  
+  
+
+
+}
+button{
+    display: inline-block;
+width: 164px;
+height: 53px;
+background-color: #df0e62;
+color: white;
+text-decoration: none;
+border-radius: 30px;
+text-align: center;
+line-height: 53px;
+}
+.re{
+    height: 900px;
+}
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    column-gap: 6px;
+}
+.imga{
+    width: 33%;
+    height: 300px;
+    overflow: hidden;
+ position: relative;
+
+}
+
+
+
+
+.imga img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ position: relative;
+
+}
+
+.imga:hover img{
+
+filter: brightness(50%);
+
+
+
+
+
+
+}
+.imga svg{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: 1s;
+}
+.imga:hover svg{
+    opacity: 1;
+    top: 50%    ; 
+}
+.img2{
+    opacity: 1;
+
+
+
+
+}
+.wer{
+  
+    color: white;
+    font-size: 4rem;
+    font-family: "Oswald", arial, sans-serif;
+    display: flex;
+    align-items: center;
+   height: 204px;
+}
+
+.me{
+    border-radius: 100%;
+    width: 100%;
+    height: 205px;
+
+   
+}
+.f{ 
+    background-color: black;
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+   
+
+}
+.cor{
+    line-height: 1.7;
+    color: gray;
+    font-weight: 400px;
+    font-size: 19px;
+    text-align: center;
+
+}
+.T{
+ width: 60%;
+
+}
+.ju{
+    display: flex;
+   justify-content: center;
+}
+#biografia{
+    background-color: rgb(26, 26, 26);
+    width:100%;
+    height: 1386px;
+    position: relative;
+
+}
+#barrinha_rosa{
+    background-color: rgb(223, 14, 98);
+    width: 100px;
+    height: 4px;
+    
+}
+#biography{
+    margin-top: 140px;
+    margin-bottom: 70px;
+    font-size: 47px;
+    font-family:  arial, sans-serif;
+    color: white;
+
+}
+#img_jed{
+    width: 377.5px;
+}
+.subtitulos{
+    color: white;
+    font-size: 27px;
+}
+#caixa_alinhamento{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.lorem{
+    font-family: Quicksand, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 27.5px;
+}
+span{
+    color: rgb(223, 14, 98);
+    font-family: Quicksand, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#caixa_lista{
+    display: flex;
+    flex-direction: row;
+}
+.listas{
+    width: 50%;
+}
+li{
+    font-family: Quicksand, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 27.5px;
+    color: rgb(128, 128, 128);
+    list-style-type: none;
+}
+
+/*Fim da Biografia*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Início do BLOG*/
+
+#BLOG{
+    background-color: black;
+    height: 1464px;
+    border: solid;
+    position: relative;
+}
+#caixa_alinhamento_BLOG{
+    width: 760px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    
+    border-color: white;
+}
+#h1_blog{
+    color: white;
+    font-size: 55px;
+    font-family: Oswald, arial, sans-serif;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+#blog01{
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#img01_blog{
+    width: 250px;
+    height: 200px;
+    
+}
+#strong_blog{
+    color: white;
+    font-size: 19px;
+    font-family: Oswald, arial, sans-serif;
+    position: absolute;
+    top: 0%;
+    left: 37%;
+}
+.p_blog{
+    color: rgb(128, 128, 128);
+}
+#l1{
+    font-size: 16px;
+    font-family: Quicksand, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    position: absolute;
+    top: 6%;
+    left: 37%;
+}
+#l2{
+    position: absolute;
+    top: 26%;
+    left: 37%;
+    font-size: 16px;
+    font-family: Quicksand, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#l3{
+    position: absolute;
+    top: 39%;
+    left: 37%;
+    font-size: 16px;
+    font-family: Quicksand, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.span02{
+    color: gray;
+}
+#numeros{
+    display: flex;
+   justify-content: space-between;
+}
+.numero_blog{
+    color: rgb(223, 14, 98);
+}
+
+/*Fim do BLOG*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Início do CONTACT*/
+
+#CONTACT{
+    height: 950px;
+    background-color: rgb(26, 26, 26);
+    position: relative;
+}
+#caixa_alinhamento_contact{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 50%;
+    position: relative;
+}
+
+
+#h1_contact{
+    margin-top: 130px;
+    color: white;
+    font-size: 55px;
+    font-family: Oswald, arial, sans-serif;
+}
+#first_last{
+    display: flex;
+}
+#first_name{
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   color: white;
+   margin-top: 30px;
+}
+#last_name{
+    margin-left: 6px;
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   color: white;
+   margin-top: 30px;
+}
+#email{
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    margin-top: 30px;
+}
+#subject{
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    margin-top: 30px;
+}
+#Message{
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    margin-top: 30px;
+}
+#input_message{
+    color: white;
+    border: none;
+    border-bottom: solid 2px gray;
+    background: none;
+    height: 150px;
+}
+label{
+    font-size: 16px;
+    font-family: Quicksand, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+input{
+    color: white;
+    margin-top: 30px;
+    border: none;
+    border-bottom: solid 2px gray;
+    background: none;
+}
+#texto_input{
+    position: absolute;
+    color: gray;
+    top: 64%;
+    font-family: Quicksand, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#butao_message{
+    width: 20%;
+    height: 50px;
+    background-color: rgb(255, 0, 119);
+    border: 0;
+    border-radius: 100px;
+    margin-top: 40px;
+    color: white;
+    font-size: 14px;
+}

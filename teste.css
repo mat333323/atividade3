@@ -1,0 +1,56 @@
+#pai {
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: red;
+    position: relative;
+}
+
+#filho {
+    opacity: 0;
+    z-index: -1;
+    top: 200%;
+    
+    transition: 1s;
+    
+    width: 300px;
+    background: blue;
+    position: absolute;
+}
+
+#pai:hover #filho{
+    top: 100%;
+    z-index: 1;
+    opacity: 1;
+}
+
+#pai2 {
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: red;
+    position: relative;
+}
+
+#filho2 {
+    opacity: 0;
+    z-index: -1;
+    top: 200%;
+    
+    transition: 1s;
+    
+    width: 300px;
+    background: blue;
+    position: absolute;
+}
+
+#div_dropmenu:check:checked~#filho2{
+    top: 100%;
+    z-index: 1;
+    opacity: 1;
+    
+}
+
+#check {
+    display: none;
+}
